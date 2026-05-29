@@ -1,0 +1,92 @@
+Osint practice % theHarvester
+
+Target
+rosieosintpractice.wordpress.com (my onw newly created blog)
+
+Tools Used
+theHarvester
+
+Command Executed
+theHarvester -d rosieosintpractice.wordpress.com -l 500 -b all
+
+Raw output
+[*] Searching Chaos. 
+        Searching results.
+[*] Searching Certspotter. 
+[*] Searching CRTsh. 
+[*] Searching Baidu. 
+[*] Searching Duckduckgo. 
+Fofa API error: [-700] 账号无效
+Failed to parse Fofa response: 
+[!] Missing API key for Fofa API (Invalid credentials). 
+[*] Searching Fofa. 
+[*] Searching Hackertarget. 
+2026-05-29 17:33:39,346 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock processing for: rosieosintpractice.wordpress.com
+2026-05-29 17:33:39,349 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock search for: rosieosintpractice.wordpress.com
+2026-05-29 17:33:45,868 - theHarvester.discovery.hudsonrocksearch - INFO - Domain statistics: 0 total compromised, 0 employees, 0 users
+2026-05-29 17:33:46,869 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock search completed. Found 0 hosts, 0 IPs, 0 emails
+2026-05-29 17:33:46,869 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock processing completed successfully: 0 hosts, 0 IPs, 0 emails, 0 stealers
+[*] Searching Hudsonrock. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+[*] Searching Gitlab. 
+[*] Searching Leaklookup. 
+LeakIX API requires authentication: "Incorrect API Key"
+[*] Searching Otx. 
+[*] Searching Commoncrawl. 
+[*] Searching Leakix. 
+[*] Searching Rapiddns. 
+[*] Searching Subdomaincenter. 
+[*] Searching Thc. 
+No response from ThreatCrowd API for: rosieosintpractice.wordpress.com
+[*] Searching Threatcrowd. 
+[*] Searching Robtex. 
+[*] Searching Subdomainfinderc99. 
+[*] Windvane API key not found. Using limited unauthenticated access.
+[*] Searching Urlscan. 
+[*] API unavailable, using fallback subdomain pattern search...
+[*] Searching Yahoo. 
+[*] Searching Waybackarchive. 
+[*] Found 20 subdomains using DNS fallback
+[*] Searching Windvane. 
+
+[*] No LinkedIn users found.
+[*] LinkedIn Links found: 0
+---------------------
+
+[*] IPs found: 1
+-------------------
+192.0.78.12
+
+[*] No emails found.
+
+[*] No people found.
+
+[*] Hosts found: 19
+---------------------
+admin.rosieosintpractice.wordpress.com
+api.rosieosintpractice.wordpress.com
+app.rosieosintpractice.wordpress.com
+blog.rosieosintpractice.wordpress.com
+cdn.rosieosintpractice.wordpress.com
+dev.rosieosintpractice.wordpress.com
+docs.rosieosintpractice.wordpress.com
+ftp.rosieosintpractice.wordpress.com
+help.rosieosintpractice.wordpress.com
+login.rosieosintpractice.wordpress.com
+mail.rosieosintpractice.wordpress.com
+mobile.rosieosintpractice.wordpress.com
+portal.rosieosintpractice.wordpress.com
+secure.rosieosintpractice.wordpress.com
+shop.rosieosintpractice.wordpress.com
+staging.rosieosintpractice.wordpress.com
+status.rosieosintpractice.wordpress.com
+support.rosieosintpractice.wordpress.com
+test.rosieosintpractice.wordpress.com
+
+Photo Evidence
+/home/chioma1/Desktop/MyCyberPortfolio/OSINT_Project/theHarvester_screenshot.png
+/home/chioma1/Desktop/MyCyberPortfolio/OSINT_Project/theHarvester_screenshot2.png
+/home/chioma1/Desktop/MyCyberPortfolio/OSINT_Project/theHarvester_screenshot3.png
+
+What I learnt
+theHarvester is a tool used to search public sources for things like emails, subdomains, hosts, and ip adresses attcahed to the domain put in the command. My domain had no exposed emails, nor any linkedin plaforms or published contact due to it being newly created and to be used as a test subject for this experiment. In reality, this could appear useful because little information brought out could mean that the domain has little footprint.
