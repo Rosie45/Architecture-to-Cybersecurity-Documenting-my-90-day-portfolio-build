@@ -1,0 +1,39 @@
+Maltego OSINT investigation - Maltego
+
+Target
+tesla.com (test practice)
+
+Tools Used
+Maltego
+
+Transforms Used
+[Utilities] to DNSNames [within Properties] - found 23 DNS names
+[Utilities] To Email address [FRom whois info] - found 7 email addresses
+[Utilities] To DNS Name - NS (mail server) - Found NS records
+[Utilities] To DNS Name - MX (mail server) - found 1 MX records
+[Utilities] To Person [PGP] - found 24 persons
+[Utilities] To Phone Numbers [within Properties] - found 5 phone numbers
+[Utilities] To Website Using Domain [Search Engine] - found 5 websites
+[Utilities] To Email Addresses [PGP] - from Elon Musk (Person)
+[Utilities] To IP Address [DNS] - from tesla.com (Domain) - found 10 ip addresses
+
+Entities found
+Persons: 'Taylor Edwards', 'Elon Musk', 'Timothy Gu', 'William Dawson',...
+Email Address: 'elonmusk@tesla.com', 'edward.taylor@strlfors.co.uk',...
+Ip Address: '2.18.51.207', '2.18.49.207', '204.74.111.69',...
+Websites: 'ir.tesla.com', 'shop.tesla.com',...
+Phone number: '+14155319335', '+12086851750',...
+
+Photo Evidence
+/home/chioma1/Desktop/MyCyberPortfolio/OSINT_Project/Maltego_Project/maltego_maingraph.png
+
+PDF Export
+/home/chioma1/Desktop/MyCyberPortfolio/OSINT_Project/Maltego_Project/Maltego_maptesla.pdf
+
+Observations and Challenges
+Restrictions - Free transforms are limited without API keys
+Distinguishing between legitimate entities found and redundant
+The graph visually displays interconnected DNS records
+
+What I learnt
+Maltego is a very powerful tool used in OSINT investigation for visualizing relationships for a specific target. It is needed to run various transforms to get a bigger picture and more available information. As noted in the first practice using theHarvester, having no result or little result is still useful information because it means that the target has little footprint.
